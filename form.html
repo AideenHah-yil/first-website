@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recommendations</title>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recommendations">Recommendations</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <h1>Anime Recommendations</h1>
+ 
+    <div>
+        <form method="post"  >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br/>
+
+            <label for="genres">Favorite Genres:</label><br>
+            <input type="checkbox" id="action" name="genres[]" value="Action">
+            <label for="action">Action</label><br>
+           
+            <input type="checkbox" id="fantasy" name="genres[]" value="Fantasy">
+            <label for="fantasy">Fantasy</label><br>
+
+            <input type="checkbox" id="comedy" name="genres[]" value="Comedy">
+            <label for="comedy">Comedy</label><br>
+
+            <input type="checkbox" id="drama" name="genres[]" value="Drama">
+            <label for="drama">Drama</label><br>
+
+            <input type="checkbox" id="romance" name="genres[]" value="Romance">
+            <label for="romance">Romance</label><br>
+
+            <input type="checkbox" id="sci-fi" name="genres[]" value="Sci-Fi">
+            <label for="sci-fi">Sci-Fi</label><br>
+
+            <input type="checkbox" id="adventure" name="genres[]" value="Adventure">
+            <label for="adventure">Adventure</label><br>
+        
+            <input type="checkbox" id="horror" name="genres[]" value="Horror">
+            <label for="horror">Horror</label><br>
+        
+            <input type="checkbox" id="slice-of-life" name="genres[]" value="Slice of Life">
+            <label for="slice-of-life">Slice of Life</label><br>
+
+            <label for="favorite_anime">Favorite Anime:</label><br>
+            <input type="text" id="favorite_anime" name="favorite_anime" required><br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    
+    </div>
+  
+    
+</body>
+</html>
