@@ -1,37 +1,104 @@
 /* Fonts */
-.header-text {
+h1,h2 {
     font-family: Impact, sans-serif;
     font-size: large;
-    color: #FF4500; /* Orange Red */
+    color: black; 
 }
 
-.main-text {
+p {
     font-family: Arial, sans-serif;
     font-size: medium;
-    color: #000000; /* Black */
+    color: #080909; 
 }
 
 /* Navigation Links */
-.nav-link {
+ul {
     font-family: Arial, sans-serif;
-    font-size: small;
-    color: #4B0082; /* Indigo */
+    font-size: medium;
+    color: aliceblue; 
+}
+a {
+    font-family: 'Lobster';
+    font-size: medium;
+    color: #6366cd;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: bisque;
 }
 
-/* Global Styles */
-body.imdex {
-    background-color: #F8F8FF; /* Ghost White */
+
+body.index {
+    background-color: #3b8e91; 
+}
+
+body.form {
+    background-image: url('images/Grand\ Blue.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body.favorites {
+    background-color: #97e5e7;
+}
+
+body.gallery {
+    background-color: rgb(36, 225, 216);
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+}
+
+img {
+    width: 90%; 
+    height: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+    object-fit: cover; 
+}
+
+
+#form {
+    color: #fff;
+}
+button {
+    background-color: #30e2e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #12fdfd;
 }
 
 nav {
-    background-color: #FFD700; /* Gold */
+    background-color: #19e3e3; 
+    color: #12fdfd; 
+    font-family: fantasy;
+    display: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+   justify-content: space-between;
 }
 
 nav a {
-    color: #4B0082; /* Indigo */
+    color: #138282; 
 }
 
-button {
-    background-color: #1E90FF; /* Dodger Blue */
-    color: #FFFFFF; /* White */
+nav a:hover {
+    color: #3a4cbe; 
 }
+
