@@ -26,34 +26,6 @@
    - Label for each image indicating the anime it's from.
    - Clicking on each image opens the source in a new window.
 
-#### Design Decisions:
-1. **Fonts:**
-   - Font for text: Arial, sans-serif.
-   - Font for headers: Impact, sans-serif.
-   
-2. **Color Palette (Hex Codes):**
-   - Background color: #F8F8FF (Ghost White)
-   - Text color: #000000 (Black)
-   - Header color: #FF4500 (Orange Red)
-   - Link color: #4B0082 (Indigo)
-   - Button color: #1E90FF (Dodger Blue)
-   - Accent color: #FFD700 (Gold)
-
-#### CSS Classes:
-1. `.header-text`:
-   - Style for H1 headers.
-   - Font: Impact, sans-serif.
-   - Font size: Large.
-   - Font color: #FF4500 (Orange Red).
-   
-2. `.main-text`:
-   - Style for main text paragraphs.
-   - Font: Arial, sans-serif.
-   - Font size: Medium.
-   - Font color: #000000 (Black).
-   
-3. `.nav-link`:
-   - Style for navigation links.
-   - Font: Arial, sans-serif.
-   - Font size: Small.
-   - Font color: #4B0082 (Indigo).
+### design 
+ - I will work with shades of blue
+ 
