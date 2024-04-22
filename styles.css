@@ -1,0 +1,37 @@
+/* Fonts */
+.header-text {
+    font-family: Impact, sans-serif;
+    font-size: large;
+    color: #FF4500; /* Orange Red */
+}
+
+.main-text {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: #000000; /* Black */
+}
+
+/* Navigation Links */
+.nav-link {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: #4B0082; /* Indigo */
+}
+
+/* Global Styles */
+body {
+    background-color: #F8F8FF; /* Ghost White */
+}
+
+nav {
+    background-color: #FFD700; /* Gold */
+}
+
+nav a {
+    color: #4B0082; /* Indigo */
+}
+
+button {
+    background-color: #1E90FF; /* Dodger Blue */
+    color: #FFFFFF; /* White */
+}
